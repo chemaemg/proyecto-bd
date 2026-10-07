@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Práctica 3.1 - Bases de Datos</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      background-color: #f0f2f5;
+      color: #333;
+    }
+    .card {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      max-width: 400px;
+      width: 90%;
+      text-align: center;
+    }
+    h1 { color: #800020; margin-bottom: 0.5rem; }
+    h2 { color: #2c3e50; font-size: 1.2rem; margin-top: 0; }
+    p { margin: 0.5rem 0; font-size: 0.95rem; }
+    .tag {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.3rem 0.8rem;
+      background: #e2e8f0;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>¡Hola Mundo!</h1>
+    <h2>Emmanuel Morales González</h2>
+    <p><strong>ESCOM - IPN</strong></p>
+    <p>Ingeniería en Sistemas Computacionales</p>
+    <p>Unidad de Aprendizaje: Bases de Datos</p>
+    <div class="tag">Práctica 3.1 - GitHub Pages</div>
+  </div>
+</body>
+</html>
